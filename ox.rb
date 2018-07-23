@@ -4,37 +4,37 @@ require "minitest/autorun"
 class Rtest < Minitest::Test
   def test_chaking1 
     assert_equal ("w"), Twoplayers.new(values={"1"=>" ",
-																														"2"=>" ",
-																														"3"=>" ",
-																														"4"=>" ",
-																														"5"=>" ",
-																														"6"=>" ",
-																														"7"=>"x",
-																														"8"=>"x",
-																														"9"=>"x"	}).chaking("x")
+						"2"=>" ",
+						"3"=>" ",
+						"4"=>" ",
+						"5"=>" ",
+						"6"=>" ",
+						"7"=>"x",
+						"8"=>"x",
+						"9"=>"x"	}).chaking("x")
   end 
  
   def test_chaking2
   	 assert_equal ("w"), Twoplayers.new(values={"1"=>"x",
-																														"2"=>"o",
-																														"3"=>"x",
-																														"4"=>"o",
-																														"5"=>"x",
-																														"6"=>"o",
-																														"7"=>"o",
-																														"8"=>"o",
-																														"9"=>"o"	}).chaking("o")
+							"2"=>"o",
+							"3"=>"x",
+							"4"=>"o",
+							"5"=>"x",
+							"6"=>"o",
+							"7"=>"o",
+							"8"=>"o",
+							"9"=>"o"	}).chaking("o")
   end 
   def test_chaking3
   	  assert_equal (nil), Twoplayers.new(values={"1"=>"x",
-																													"2"=>"o",
-																													"3"=>"x",
-																													"4"=>"o",
-																													"5"=>"x",
-																													"6"=>"o",
-																													"7"=>"o",
-																													"8"=>"x",
-																													"9"=>"o"	}).chaking("o")
+							"2"=>"o",
+							"3"=>"x",
+							"4"=>"o",
+							"5"=>"x",
+							"6"=>"o",
+							"7"=>"o",
+							"8"=>"x",
+							"9"=>"o"	}).chaking("o")
   end
 end
 '''
