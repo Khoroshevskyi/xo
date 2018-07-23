@@ -1,3 +1,1 @@
-# xo
-# xo
-#Aleksandro
+# tic-tac-toe
