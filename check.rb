@@ -13,8 +13,8 @@ class Checking
 
   def checking(player)
     WINNING_LINES.each do |win|
-    return true if win.all? {|winning| @values[winning]==player}
-    false
+      return true if win.all? {|winning| @values[winning]==player}
+      false
     end
   end
   def empty?
