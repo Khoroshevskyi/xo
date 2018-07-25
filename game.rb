@@ -10,17 +10,17 @@ class Twoplayers
     elsif player=="Second"
       @sign="o"
     end
-	end
+  end
   def player
 	print "#{@player} player step, choose number of cell: "
     while true
       s_player=gets.chop
       if values[s_player]!="x" && values[s_player]!="o" && values.key?(s_player)
         values[s_player]=@sign
-	    break
-	  else
+        break
+      else
 	    print "This number is not empty or is not in list, try again "
       end
-	end
+    end
   end
 end
