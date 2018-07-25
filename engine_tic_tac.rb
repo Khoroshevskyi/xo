@@ -36,7 +36,6 @@ class Engine
         puts "Second player won"
         break
       end
-
     end
   end
   def one_player_start
