@@ -19,7 +19,7 @@ class Twoplayers
         values[s_player]=@sign
         break
       else
-	    print "This number is not empty or is not in list, try again "
+        print "This number is not empty or is not in list, try again "
       end
     end
   end
